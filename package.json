@@ -1,8 +1,13 @@
 {
-  "name": "app",
-  "private": true,
+  "name": "app-inventories",
+  "private": false,
   "version": "0.0.0",
   "type": "module",
+  "author": {
+    "name": "Aldair González",
+    "email": "aldairgome97@gmail.com",
+    "url": "https://www.linkedin.com/in/aldairgonzalez/"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
