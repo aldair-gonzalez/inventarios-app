@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (prefers-color-scheme: dark) {
+  body {
+    @apply bg-stone-900 text-white;
+  }
+}
+
+body {
+  @apply bg-white text-stone-900;
+}
+
+.Standard-button {
+  @apply outline outline-1 -outline-offset-1 w-40 h-9 rounded-md text-center flex items-center justify-center uppercase text-xs
+}
