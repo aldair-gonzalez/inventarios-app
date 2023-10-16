@@ -32,13 +32,16 @@ module.exports = {
     '@typescript-eslint/no-this-alias': 'off',
     '@typescript-eslint/ban-types': 'off',
     '@typescript-eslint/ban-ts-comment': 'off',
-    'prefer-spread': 'off',
-    'no-case-declarations': 'off',
-    'no-console': 'off',
     '@typescript-eslint/no-unused-vars': ['error'],
     '@typescript-eslint/consistent-type-imports': 'warn',
     '@typescript-eslint/no-unnecessary-condition': 'warn',
+    'prefer-spread': 'off',
+    'no-case-declarations': 'off',
+    'no-console': 'error',
+    'quotes': ['error', 'single'],
     'jsx-quotes': ['error', 'prefer-double'],
-    quotes: ['error', 'single']
+    'eol-last': ['error', 'always'],
+    'semi': ['error', 'always'],
+    'no-multiple-empty-lines': ['error', { 'max': 2, 'maxEOF': 0 }]
   },
 };
