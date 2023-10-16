@@ -5,5 +5,5 @@ export default component$(() => {
     <>
       Este es el index de descuentos
     </>
-  )
-})
+  );
+});
