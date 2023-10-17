@@ -4,11 +4,11 @@ import type { DocumentHead } from '@builder.io/qwik-city';
 export default component$(() => {
   return (
     <>
-      Este es el index de proveedores
+      Inventarios
     </>
   );
 });
 
 export const head: DocumentHead = {
-  title: 'PROVEEDORES'
+  title: 'INVENTARIOS'
 };
