@@ -7,8 +7,8 @@ import type { IRoutes } from '~/provider/Provier';
 // Categorias
 export default component$(() => {
   const routes: IRoutes[] = [
-    { id: uuidv4(), href: '/inventories/categories/create', title: 'crear', alt: 'Crear' },
-    { id: uuidv4(), href: '/inventories/categories/view-all', title: 'ver todas', alt: 'Ver todas' }
+    { id: uuidv4(), href: '/inventories/categories/create', title: 'nueva categoría', alt: 'Crear' },
+    { id: uuidv4(), href: '/inventories/categories/view-all', title: 'todas las categorías', alt: 'Ver todas' }
   ];
 
   return (
