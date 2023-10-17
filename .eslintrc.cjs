@@ -42,6 +42,7 @@ module.exports = {
     'jsx-quotes': ['error', 'prefer-double'],
     'eol-last': ['error', 'always'],
     'semi': ['error', 'always'],
-    'no-multiple-empty-lines': ['error', { 'max': 2, 'maxEOF': 0 }]
+    'no-multiple-empty-lines': ['error', { 'max': 2, 'maxEOF': 0 }],
+    'no-trailing-spaces': 'error'
   },
 };
