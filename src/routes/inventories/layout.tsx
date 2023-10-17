@@ -9,7 +9,7 @@ export default component$(() => {
   const routes: IRoutes[] = [
     { id: uuidv4(), href: '/categories', title: 'categorias', alt: 'ir a categorias' },
     { id: uuidv4(), href: '/products', title: 'productos', alt: 'ir a productos' },
-    { id: uuidv4(), href: '/inventories', title: 'inventarios', alt: 'ir a inventarios' }
+    { id: uuidv4(), href: '/stocktaking', title: 'inventarios', alt: 'ir a inventarios' }
   ];
 
   return (

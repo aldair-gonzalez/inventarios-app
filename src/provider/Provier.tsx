@@ -4,7 +4,7 @@ import { v4 as uuidv4 } from 'uuid';
 const bbdd = {
   header: {
     menu: [
-      { id: uuidv4(), href: '/', title: 'tickets', alt: 'ir a tickets' },
+      { id: uuidv4(), href: '/tickets', title: 'tickets', alt: 'ir a tickets' },
       { id: uuidv4(), href: '/discounts', title: 'descuentos', alt: 'ir a descuentos', },
       { id: uuidv4(), href: '/inventories', title: 'inventarios', alt: 'ir a inventarios' },
       { id: uuidv4(), href: '/suppliers', title: 'proveedores', alt: 'ir a proveedores' },
