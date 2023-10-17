@@ -3,14 +3,14 @@
 @tailwind utilities;
 
 :root {
-  --c-background: #FFFFFF;
-  --c-text: #222222;
+  --c-background: #FAF7F2;
+  --c-text: #2B2B2A;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --c-background: #222222;
-    --c-text: #FFFFFF;
+    --c-background: #2B2B2A;
+    --c-text: #FAF7F2;
   }
 }
 
@@ -24,5 +24,5 @@ body {
 }
 
 .Standard-container {
-  @apply rounded-md outline outline-1 outline-gray-900 -outline-offset-1;
+  @apply rounded-md outline outline-1 outline-gray -outline-offset-1;
 }
