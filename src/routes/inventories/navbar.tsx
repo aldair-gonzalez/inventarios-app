@@ -22,6 +22,7 @@ const ButtonNavigation = component$(({ route, pathname }: { route: IRoutes, path
       <Link
         href={`${pathname}${route.href}`}
         class={`w-full py-3 px-4 rounded-md uppercase text-sm hover:bg-gray hover:text-white ${path.includes(route.href) ? 'bg-gray text-white' : ''}`}
+        prefetch
         >
         {route.title}
       </Link>

@@ -18,6 +18,7 @@ export const ButtonsCrud = component$<ButtonsCrudProps>((props) => {
               key={route.id}
               class="w-full px-4 py-3 border border-gray rounded-md uppercase text-sm hover:bg-gray hover:text-white"
               href={route.href}
+              prefetch
               >
                 {route.title}
             </Link>
