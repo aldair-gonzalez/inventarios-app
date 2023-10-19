@@ -9,5 +9,5 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: 'INVENTARIOS'
+  title: 'Inventarios'
 };

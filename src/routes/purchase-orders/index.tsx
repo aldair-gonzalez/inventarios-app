@@ -10,5 +10,5 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: 'ORDENES DE COMPRA'
+  title: 'Órdenes de compra'
 };

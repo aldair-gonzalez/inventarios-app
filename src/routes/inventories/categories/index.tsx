@@ -20,5 +20,5 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: 'CATEGORIAS'
+  title: 'Categorías'
 };

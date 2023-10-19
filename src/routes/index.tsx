@@ -10,11 +10,11 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: 'Server YAJID',
+  title: 'Punto de venta YAJID',
   meta: [
     {
       name: 'description',
-      content: 'YAJID SITE DESCRIPTION',
+      content: 'Gestor de inventarios YAJID',
     },
   ],
 };
