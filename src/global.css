@@ -14,15 +14,23 @@
   }
 }
 
+form, input, textarea, select, button, label {
+  @apply bg-transparent hyphens-auto block appearance-none;
+}
+
 body {
   background: var(--c-background);
   color: var(--c-text);
 }
 
 .Standard-button {
-  @apply outline outline-1 -outline-offset-1 w-40 h-9 rounded-md text-center flex items-center justify-center uppercase text-xs;
+  @apply outline outline-1 -outline-offset-1 w-40 h-9 rounded-md text-center flex items-center justify-center uppercase text-xs hover:bg-gray hover:text-white;
 }
 
 .Standard-container {
   @apply rounded-md outline outline-1 outline-gray -outline-offset-1;
+}
+
+.Standard-input {
+  @apply w-full h-9 px-3 resize-none text-sm flex items-center border border-gray rounded-md uppercase placeholder:text-gray dark:placeholder:text-white-500;
 }
