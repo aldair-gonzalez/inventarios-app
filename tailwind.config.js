@@ -13,7 +13,11 @@ export default {
         DEFAULT: '#2B2B2A',
         300: '#2B2B2A4d',
       },
-      gray: '#5C5A59',
+      gray: {
+        DEFAULT: '#5C5A59',
+        300: '#5C5A594d',
+        500: '#5C5A5980',
+      },
       transparent: 'transparent'
   },
   plugins: [],
