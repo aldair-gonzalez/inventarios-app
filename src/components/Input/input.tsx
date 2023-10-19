@@ -21,6 +21,7 @@ export const Input = component$<InputProps>((props) => {
         type={`${type ? type : 'text'}`}
         name={name}
         placeholder={placeholder}
+        autoComplete="off"
         id={id}
       />
     </div>
