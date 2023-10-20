@@ -1,12 +1,12 @@
 import { component$ } from '@builder.io/qwik';
 import type { DocumentHead } from '@builder.io/qwik-city';
+import { ButtonsCrud } from '~/components/Buttons-crud/buttons-crud';
 import type { IRoutes } from '~/provider/Provier';
 import { v4 as uuidv4 } from 'uuid';
-import { ButtonsCrud } from '~/components/Buttons-crud/buttons-crud';
 
 const routes: IRoutes[] = [
-  { id: uuidv4(), href: '/inventories/stocktaking/create', title: 'nuevo inventario', alt: 'Crear' },
-  { id: uuidv4(), href: '/inventories/stocktaking/view-all', title: 'todos los inventarios', alt: 'Ver todos' }
+  { id: uuidv4(), href: '/inventories/suppliers/create', title: 'nuevo proveedor', alt: 'Crear' },
+  { id: uuidv4(), href: '/inventories/suppliers/view-all', title: 'todos los proveedores', alt: 'Ver todos' }
 ];
 
 export default component$(() => {
@@ -18,5 +18,5 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: 'Stock'
+  title: 'Proveedores'
 };
