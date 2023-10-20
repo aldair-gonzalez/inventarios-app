@@ -3,18 +3,23 @@
 @tailwind utilities;
 
 :root {
-  --c-background: #FAF7F2;
-  --c-text: #2B2B2A;
+  --c-background: #faf7f2;
+  --c-text: #2b2b2a;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --c-background: #2B2B2A;
-    --c-text: #FAF7F2;
+    --c-background: #2b2b2a;
+    --c-text: #faf7f2;
   }
 }
 
-form, input, textarea, select, button, label {
+form,
+input,
+textarea,
+select,
+button,
+label {
   @apply bg-transparent hyphens-auto block appearance-none;
 }
 

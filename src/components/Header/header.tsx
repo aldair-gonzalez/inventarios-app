@@ -16,7 +16,13 @@ export const Header = component$<HeaderProps>(() => {
         {menu.map((route) => {
           return (
             <li key={route.id}>
-              <Link class={`Standard-button ${pathname.includes(route.href) ? 'bg-gray text-white' : ''}`} href={route.href} prefetch>
+              <Link
+                class={`Standard-button ${
+                  pathname.includes(route.href) ? 'bg-gray text-white' : ''
+                }`}
+                href={route.href}
+                prefetch
+              >
                 {route.title}
               </Link>
             </li>
