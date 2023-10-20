@@ -3,7 +3,7 @@ import { Slot, component$ } from '@builder.io/qwik';
 export default component$(() => {
   return (
     <>
-      Este es el layout de proveedores
+      Este es el layout de préstamos
       <Slot />
     </>
   );
