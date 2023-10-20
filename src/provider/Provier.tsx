@@ -49,19 +49,43 @@ const bbdd = {
       },
     ],
   },
+  CRUDS: {
+    inputs: {
+      category: [
+        { id: uuidv4(), title: 'Nombre', name: 'name', placeholder: 'Nombre' },
+        { id: uuidv4(), title: 'Descripción', name: 'description', placeholder: 'Descripción' }
+      ],
+      supplier: [],
+      product: [],
+    }
+  }
 };
 
-export interface IRoutes {
+export type IRoutes = {
   id: string;
   href: string;
   title: string;
   alt: string;
 }
+export type IInput = {
+  id: string
+  title: string
+  name: string
+  placeholder: string
+  type?: string
+}
 
-export interface IGlobalContext {
+export type IGlobalContext = {
   header: {
     menu: IRoutes[];
   };
+  CRUDS: {
+    inputs: {
+      category: IInput[]
+      supplier: IInput[]
+      product: IInput[]
+    }
+  }
 }
 
 export const GlobalContext = createContextId<IGlobalContext>(
