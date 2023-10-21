@@ -53,12 +53,66 @@ const bbdd = {
     inputs: {
       category: [
         { id: uuidv4(), title: 'Nombre', name: 'name', placeholder: 'Nombre' },
-        { id: uuidv4(), title: 'Descripción', name: 'description', placeholder: 'Descripción' }
+        {
+          id: uuidv4(),
+          title: 'Descripción',
+          name: 'description',
+          placeholder: 'Descripción',
+        },
       ],
-      supplier: [],
+      supplier: [
+        { id: uuidv4(), title: 'name', name: 'name', placeholder: 'name' },
+        {
+          id: uuidv4(),
+          title: 'description',
+          name: 'description',
+          placeholder: 'description',
+        },
+        {
+          id: uuidv4(),
+          title: 'address',
+          name: 'address',
+          placeholder: 'address',
+        },
+        { id: uuidv4(), title: 'city', name: 'city', placeholder: 'city' },
+        { id: uuidv4(), title: 'state', name: 'state', placeholder: 'state' },
+        {
+          id: uuidv4(),
+          title: 'zip_code',
+          name: 'zip_code',
+          placeholder: 'zip_code',
+          type: 'number',
+        },
+        {
+          id: uuidv4(),
+          title: 'phone_number',
+          name: 'phone_number',
+          placeholder: 'phone_number',
+          type: 'number',
+        },
+        {
+          id: uuidv4(),
+          title: 'email_address',
+          name: 'email_address',
+          placeholder: 'email_address',
+        },
+        {
+          id: uuidv4(),
+          title: 'website',
+          name: 'website',
+          placeholder: 'website',
+        },
+        {
+          id: uuidv4(),
+          title: 'credit_limit',
+          name: 'credit_limit',
+          placeholder: 'credit_limit',
+          type: 'number',
+        },
+      ],
       product: [],
-    }
-  }
+    },
+  },
 };
 
 export type IRoutes = {
@@ -66,14 +120,14 @@ export type IRoutes = {
   href: string;
   title: string;
   alt: string;
-}
+};
 export type IInput = {
-  id: string
-  title: string
-  name: string
-  placeholder: string
-  type?: string
-}
+  id: string;
+  title: string;
+  name: string;
+  placeholder: string;
+  type?: string;
+};
 
 export type IGlobalContext = {
   header: {
@@ -81,12 +135,12 @@ export type IGlobalContext = {
   };
   CRUDS: {
     inputs: {
-      category: IInput[]
-      supplier: IInput[]
-      product: IInput[]
-    }
-  }
-}
+      category: IInput[];
+      supplier: IInput[];
+      product: IInput[];
+    };
+  };
+};
 
 export const GlobalContext = createContextId<IGlobalContext>(
   'docs-global-context',
