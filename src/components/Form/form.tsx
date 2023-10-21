@@ -14,7 +14,7 @@ export const Form = component$<FormProps>((props) => {
     <form class="w-full h-full relative" action="">
       <h2 class="font-medium uppercase">{title}</h2>
 
-      <div class="grid grid-cols-3 gap-10">
+      <div class="grid grid-cols-3 gap-8">
         <Slot />
       </div>
 
