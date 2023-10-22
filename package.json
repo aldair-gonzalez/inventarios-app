@@ -29,6 +29,7 @@
     "@types/node": "20.4.5",
     "@typescript-eslint/eslint-plugin": "6.2.0",
     "@typescript-eslint/parser": "6.2.0",
+    "@modular-forms/qwik": "0.21.0",
     "autoprefixer": "10.4.16",
     "eslint": "8.45.0",
     "eslint-plugin-qwik": "1.2.13",
@@ -40,9 +41,7 @@
     "undici": "5.22.1",
     "vite": "4.4.7",
     "vite-tsconfig-paths": "4.2.0",
+    "valibot": "0.19.0",
     "uuid": "9.0.1"
-  },
-  "dependencies": {
-    "@modular-forms/qwik": "^0.21.0"
   }
 }
