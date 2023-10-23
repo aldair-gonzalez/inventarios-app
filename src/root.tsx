@@ -7,7 +7,7 @@ import {
 import { RouterHead } from './components/router-head/router-head';
 import Provider from './provider/Provier';
 
-import './global.css';
+import './global.scss';
 
 export default component$(() => {
   return (
