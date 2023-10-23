@@ -18,6 +18,11 @@ export default {
         300: '#5C5A594d',
         500: '#5C5A5980',
       },
+      red: {
+        DEFAULT: '#ab4953',
+        300: '#ab49534d',
+        500: '#ab495380',
+      },
       transparent: 'transparent'
   },
   plugins: [],

@@ -38,4 +38,7 @@ body {
 
 .Standard-input {
   @apply w-full h-9 px-3 resize-none text-sm flex items-center border border-gray rounded-md uppercase placeholder:text-gray dark:placeholder:text-white-500;
+  &--error {
+    @apply border-red placeholder:text-red text-red;
+  }
 }
