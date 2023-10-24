@@ -2,7 +2,7 @@ import { component$ } from '@builder.io/qwik';
 
 export interface InputProps {
   id: string;
-  title: string;
+  label: string;
   name: string;
   placeholder: string;
   type?: string;
@@ -12,13 +12,13 @@ export interface InputProps {
 }
 
 export const Input = component$<InputProps>((props) => {
-  const { id, title, name, placeholder, type, value, error, errorMessage } = props;
+  const { id, label, name, placeholder, type, value, error, errorMessage } = props;
 
   return (
     <div class="w-full relative">
       <div class="w-full my-4 border border-gray relative flex items-center justify-center">
         <label class="bg-white px-3 absolute text-sm text-center uppercase dark:bg-black">
-          {title}
+          {label}
         </label>
       </div>
       <input
