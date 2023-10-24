@@ -20,7 +20,7 @@ export default component$(() => {
         <Input
           key={input.id}
           id={input.id}
-          title={input.title}
+          label={input.label}
           name={input.name}
           type={input.type}
           placeholder={input.placeholder}
